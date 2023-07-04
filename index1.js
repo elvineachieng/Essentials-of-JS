@@ -18,3 +18,4 @@ fruits= ["Milk","Bread","Apples"];
 console.log("length of fruits",fruits.length);
 fruits[1]="Bananas";
 console.log(fruits);
+//example for practising
