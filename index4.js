@@ -14,3 +14,7 @@ arr8 = [2, 6, 7, 8];
 let findIndex3 = arr8.indexOf(6,2);
 console.log(findIndex3);
 //will log -1 since 6 cannot be found starting from index 2
+//last occurence can also be found using lastIndexOf() method
+let animals = ("dog", "horse", "cat", "platypus", "dog");
+let lastDog = animals.lastIndexOf("dog");
+console.log(lastDog);
