@@ -30,6 +30,41 @@ console.log(ages);
 let name =["James", "Alicia", "Fatiha", "Maria", "Bert"];
 name.reverse();
 console.log(name );
+//practices exercise
+let items=["Milk", "Bread", "Apples"];
+items.splice(1,2, "Bananas","Eggs");
+console.log(items);
+items.pop();
+console.log(items);
+items.sort();
+console.log(items);
+//Find and output the index value of "Milk"
+let list=["Bananas","Milk"]
+let findIndexx = list.findIndex(item => item === "Milk")
+console.log(findIndexx,list);
+let fruits=["Bananas","Milk"];
+//Add "Carrots" and "Lettuce" after "Bananas"
+fruits.splice(1, 0, "Carrots", "Lettuce");
+console.log(fruits);
+let shoppingList=["Juice","Pop"];
+let shoppingList1=["Juice","Pop"];
+let shoppingList2=fruits.concat(shoppingList).concat(shoppingList1);
+console.log(shoppingList2);
+//['Bananas', 'Carrots', 'Lettuce', 'Milk', 'Juice', 'Pop', 'Juice', 'Pop']
+//Get the last index value of Pop and output it to the console
+let shoppingList3=["Bananas","Carrots","Lettuce","Milk","Juice","Pop","Juice", "Pop"]
+let popIndex=shoppingList.indexOf("Pop");
+console.log(popIndex,shoppingList3);
+
+
+
+
+
+
+
+
+
+
 
 
 
