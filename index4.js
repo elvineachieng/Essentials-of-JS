@@ -9,3 +9,8 @@ arr8 = [2, 6, 7, 8];
 let findIndex = arr8.indexOf(6);
 let findIndex2 = arr8.indexOf(10);
 console.log(findIndex, findIndex2);
+//will return 1 since index posion is 1 and then -1 since value 10 doesnt exidt in the array
+arr8 = [2, 6, 7, 8];
+let findIndex3 = arr8.indexOf(6,2);
+console.log(findIndex3);
+//will log -1 since 6 cannot be found starting from index 2
