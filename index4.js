@@ -22,8 +22,15 @@ console.log(lastDog);
 let names =["James", "Alicia", "Fatiha", "Maria", "Bert"];
 names.sort();
 console.log(names)
+//sorting umbers in acsending order
 let ages = [18,72,33,56,40];
 ages.sort();
 console.log(ages);
+//Reversing elements in an array using reverse() method
+let name =["James", "Alicia", "Fatiha", "Maria", "Bert"];
+name.reverse();
+console.log(name );
+
+
 
 
