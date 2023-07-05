@@ -18,3 +18,8 @@ console.log(findIndex3);
 let animals = ("dog", "horse", "cat", "platypus", "dog");
 let lastDog = animals.lastIndexOf("dog");
 console.log(lastDog);
+//Sorting in arrays from s,all to high and trings A-Z
+let names =["James", "Alicia", "Fatiha", "Maria", "Bert"];
+names.sort();
+console.log(names)
+
