@@ -84,7 +84,7 @@ let company = { companyName: "Healthy Candy",
     }];
 let streetName = addresses[0].street;
 console.log(streetName);
-    //objects in arrays in objects
+ //objects in arrays in objects
 company = { companyName: "Healthy Candy",
           activities: [ "food manufacturing","improving kids' health","manufacturing toys"],
  address: [{
@@ -105,3 +105,36 @@ state: "Texas"
  };
 let streetName1 = company.address[0].street;
 console.log(streetName1);
+//practsie exercise
+let people = {
+    friends: []
+};
+
+let friend1 = {
+    firstName: "Achie",
+    lastName: "Adede",
+    idValue: "39076193"
+};
+
+let friend2 = {
+    firstName: "Emma",
+    lastName: "Adero",
+    idValue: "39076194"
+};
+
+let friend3 = {
+    firstName: "Emman",
+    lastName: "Peshi",
+    idValue: "39076195"
+};
+
+people.friends.push(friend1, friend2, friend3);
+console.log(people);
+
+
+
+
+
+
+
+
