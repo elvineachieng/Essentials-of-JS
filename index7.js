@@ -31,5 +31,9 @@ let dog = { dogName: "Swanky",
  let myCar1 = myCar["color"];
  myCar["color"] = "black";
  console.log(myCar);
- myCar.milage=320;
+ myCar1 = myCar["milage"];
+ myCar["milage"] = 320;
+ console.log(myCar);
+ console.log(myCar.make, myCar.model);
+ console.log(myCar.milage);
 
