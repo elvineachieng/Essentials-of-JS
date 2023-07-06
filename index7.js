@@ -13,3 +13,7 @@ let dog = { dogName: "Swanky",
  console.log(dog);
  let dogColor1 = dog ["color"];
  console.log(dogColor1)
+ //another method of accessing properties of an object
+ let dogColor2 = dog.color;
+ console.log(dogColor2);
+ 
