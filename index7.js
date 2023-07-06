@@ -52,3 +52,19 @@ let company = { companyName: "Healthy Candy",
  company.address.zipcode = "33117";
  company["address"]["number"] = "100";
  console.log(company.address.number);
+ //arrays in objects
+ company = { companyName: "Healthy Candy",
+ activities: ["food manufacturing", 
+"improving kids' health", "manufacturing toys"],
+ address: {
+ street: "2nd street",
+ number: "123",
+ zipcode: "33116",
+ city: "Miami",
+ state: "Florida"
+ },
+ yearOfEstablishment: 2021
+ };
+ let activity = company.activities[1]
+ console.log(activity);
+ 
