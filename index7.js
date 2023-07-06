@@ -20,3 +20,16 @@ let dog = { dogName: "Swanky",
  dog["color"]="blue";
  dog.weight=2.3;
  console.log(dog);
+ //practise exercise
+ let myCar = {
+    model: "Toyota",
+    make : "Corolla",
+    color : "blue",
+    milage : 210,
+    new : true
+ }
+ let myCar1 = myCar["color"];
+ myCar["color"] = "black";
+ console.log(myCar);
+ myCar.milage=320;
+
