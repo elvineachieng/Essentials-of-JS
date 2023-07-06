@@ -12,3 +12,9 @@ let value2 = arrOfArrays[2][2];
 console.log(value2);
 let arrOfArraysOfArrays = [arrOfArrays, arrOfArrays, arrOfArrays];
 console.log(arrOfArraysOfArrays);
+//practise exercise
+let arrays =[1, 2, 3];
+let arrays1 = [arrays, arrays,arrays];
+console.log(arrays1);
+let values3 = arrays1[0][1];
+console.log(values3);
