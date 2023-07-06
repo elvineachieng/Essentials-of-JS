@@ -36,4 +36,19 @@ let dog = { dogName: "Swanky",
  console.log(myCar);
  console.log(myCar.make, myCar.model);
  console.log(myCar.milage);
-
+//Combining objects and arrays
+//objects in objects
+let company = { companyName: "Healthy Candy",
+ activity: "food manufacturing",
+ address: {
+ street: "2nd street",
+ number: "123",
+ zipcode: "33116",
+ city: "Miami",
+ state: "Florida"
+ },
+ yearOfEstablishment: 2021
+ };
+ company.address.zipcode = "33117";
+ company["address"]["number"] = "100";
+ console.log(company.address.number);
