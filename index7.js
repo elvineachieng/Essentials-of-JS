@@ -16,4 +16,7 @@ let dog = { dogName: "Swanky",
  //another method of accessing properties of an object
  let dogColor2 = dog.color;
  console.log(dogColor2);
- 
+ //Updating Objects.Changing values of properties of objects
+ dog["color"]="blue";
+ dog.weight=2.3;
+ console.log(dog);
