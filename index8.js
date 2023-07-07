@@ -1,4 +1,4 @@
-//Company project catalog
+//company catalog
 let items=[];
 let item1={
     name: "book",
@@ -18,7 +18,6 @@ let item3={
     cost: 125,
     quantity:503
 }
-item.push(item1, item2, item3);
+items.push(item1, item2, item3);
 console.log(inventory);
 console.log('Quantity of the third item:', inventory[2].quantity);
-
