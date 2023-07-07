@@ -144,7 +144,7 @@ theList[3] = "hello world";
 theList[2] = "MIDDLE";
 //Add LAST to the last position in the array
 theList.push("LAST");
-
+console.log(theList);
 
 
 
