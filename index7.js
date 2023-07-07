@@ -142,6 +142,8 @@ theList.unshift("FIRST");
 theList[3] = "hello world";
 //Assign MIDDLE to the third index value
 theList[2] = "MIDDLE";
+//Add LAST to the last position in the array
+theList.push("LAST");
 
 
 
