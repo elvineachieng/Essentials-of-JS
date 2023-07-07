@@ -136,6 +136,8 @@ const theList = ['Laurence', 'Svekis', true, 35, null, undefined,
 //Remove the first item and the last item.
 theList.pop();
 theList.shift();
+//Add the First to the start of the array
+theList.unshift("FIRST");
 
 
 
