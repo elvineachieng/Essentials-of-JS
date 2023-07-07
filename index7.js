@@ -140,6 +140,8 @@ theList.shift();
 theList.unshift("FIRST");
 //Asign Hello world to the fourth item
 theList[3] = "hello world";
+//Assign MIDDLE to the third index value
+theList[2] = "MIDDLE";
 
 
 
