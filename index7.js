@@ -130,6 +130,12 @@ let friend3 = {
 
 people.friends.push(friend1, friend2, friend3);
 console.log(people);
+//manipulating arrays
+const theList = ['Laurence', 'Svekis', true, 35, null, undefined, 
+{test: 'one', score: 55}, ['one', 'two']];
+//Remove the first item and the last item.
+theList.pop();
+theList.shift();
 
 
 
