@@ -19,5 +19,5 @@ let item3={
     quantity:503
 }
 items.push(item1, item2, item3);
-console.log(inventory);
-console.log('Quantity of the third item:', inventory[2].quantity);
+console.log(items);
+console.log('Quantity of the third item:', items[2].quantity);
