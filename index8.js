@@ -20,4 +20,5 @@ let item3={
 }
 item.push(item1, item2, item3);
 console.log(inventory);
+console.log('Quantity of the third item:', inventory[2].quantity);
 
