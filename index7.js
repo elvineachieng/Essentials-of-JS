@@ -138,6 +138,8 @@ theList.pop();
 theList.shift();
 //Add the First to the start of the array
 theList.unshift("FIRST");
+//Asign Hello world to the fourth item
+theList[3] = "hello world";
 
 
 
